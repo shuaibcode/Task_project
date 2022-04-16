@@ -1,0 +1,7 @@
+import flask
+from flask import Flask 
+app=Flask(__name__)
+@app.route('/')
+def hello_world():
+    return "ALLAH is one ALLAH akbar ALLAH albar"
+app.run()
